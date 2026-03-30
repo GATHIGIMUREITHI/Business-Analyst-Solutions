@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter 
+.ipynb_checkpoints/
+
+#OS 
+.DS_Store
+Thumbs.db
+
+# Data (keep real data out of git)
+data/raw/
+data/curated/
+!data/curated/.gitkeep
+
+# Tableau outputs / local extracts
+*.hyper
+*.tde
+*.twbr
